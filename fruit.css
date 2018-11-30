@@ -1,0 +1,66 @@
+.main-title{
+    font-size: 100px;
+    padding: 5px 30px;
+    margin: 0px;
+}
+
+.fruit-list-container{
+    list-style-type: none;
+    margin: 0;
+    background-color: lightblue;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.fruit-list{
+    float: left;
+}
+.nav-title{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+body is parent, to display in column
+display flex- makes others children
+
+child of row, and will display just as row 
+
+text align - horizonal center
+justify-content - horizaontal center elements
+align-content - vertical center (up down) and that's only display flex (treat children in equality)
+align-self - works on children (for individual)
+
+text and elemental css properties
+*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.fruit-item{
+    text-align: center;
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* margin: 10px; */
+    /* padding: 20px; */
+
+}
+
+img{
+    width: 33.3%;
+    /* height: 33.3%; */
+    margin: 0 auto;
+}

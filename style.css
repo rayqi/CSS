@@ -1,0 +1,36 @@
+
+.app-container {
+    height: 100vh;
+}
+
+.content-container {
+    background-color: maroon;
+    height: 80%;
+    margin: 20px;
+    flex: calc(50% - 40px) !important;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-half{
+    flex: 50%
+}
+
+
+
+
+
